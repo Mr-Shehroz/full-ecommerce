@@ -25,7 +25,7 @@ export default function FeaturedCategories({ categories = [] }) {
             return (
               <Link
                 key={category._id}
-                href={`/category/${category._id}`}
+                href={`/categories/${category._id}`}
                 className="group rounded-2xl overflow-hidden bg-gray-100 dark:bg-slate-800 hover:shadow-lg transition"
               >
                 {/* Image from public folder */}

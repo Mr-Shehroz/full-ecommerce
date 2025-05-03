@@ -9,7 +9,9 @@ const OrderSchema = new Schema({
     streetAdress: String,
     country: String,
     paid: Boolean,
-}, {timeStamps: true});
+}, {
+    timestamps: true
+});
 
 const Order = models?.Order || model('Order', OrderSchema)
 export default Order
